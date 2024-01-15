@@ -18,6 +18,11 @@
 .tlg{
     color: #727272;
 }
+.stl{
+        font-size: 2.8rem;
+        font-weight: 700;
+        color: #131313;
+}
 header{
     background: rgba(255, 144, 14, 0.10);
     padding: 50px 240px;
@@ -27,11 +32,7 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
-.nav-title{
-    font-size: 2.8rem;
-    font-weight: 700;
-    color: #131313;
-}
+
 nav > ul{
     display: flex;
 }
@@ -88,8 +89,34 @@ main{
     color: #ff900e;
     font-weight: 700;
 }
+/* facts sction */
+.facts{
+    line-height: 50px;
+    padding: 50px 0px;
+}
+.factscc{
+    display: flex;
+    justify-content: space-around;
+} 
+.factscc .card{
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 30px;
+    
 
-
+}
+.factscc .card-title{
+    font-weight: 600;
+    font-weight: 1.25rem;
+    margin-top: 5px;
+}
+.factscc .card-stats{
+    font-size: 2.8rem;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 
 
@@ -98,14 +125,24 @@ main{
     header{
         padding: 20px;
     }
-    nav , .teams-container{
+    nav , .teams-container ,.factscc{
         flex-direction: column;
     }
     .teams-img{
         grid-template-columns: 1fr;
     }
-    .team-cnt{
+    .team-cnt ,.facts{
         padding: 0 20px;
+    }
+    .factscc{
+        gap: 20px;
+    }
+    .facts{
+        padding-top: 20px;
+        line-height: normal;
+    }
+    .factsp{
+        padding: 20px 0px;
     }
 }
 
