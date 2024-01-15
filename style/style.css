@@ -117,6 +117,20 @@ main{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+/* sponspors style */
+.sponspors{
+    text-align: center;
+}
+.sponspors-imgs{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+.sponspors-imgs img{
+    width: 165px;
+}
 
 
 
@@ -125,7 +139,7 @@ main{
     header{
         padding: 20px;
     }
-    nav , .teams-container ,.factscc{
+    nav , .teams-container ,.factscc ,.sponspors-imgs{
         flex-direction: column;
     }
     .teams-img{
@@ -144,6 +158,7 @@ main{
     .factsp{
         padding: 20px 0px;
     }
+   
 }
 
 /* res tablet */
